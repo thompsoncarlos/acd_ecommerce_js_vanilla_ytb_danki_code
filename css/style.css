@@ -1,0 +1,31 @@
+#produtos {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+
+#carrinho {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: block;
+}
+
+.produto-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  margin: 0 20px;
+  padding: 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.produto-single img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
